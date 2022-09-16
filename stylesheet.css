@@ -58,3 +58,32 @@ textarea {
 #submit-button:hover {
   background-color: #5e068acf;
 }
+#corousel-images {
+  height: 100%;
+  width: 100%;
+}
+#discription-1 {
+  color: black;
+  width: 70%;
+  height: 540px;
+  margin-top: 0px;
+  margin-left: 270px;
+}
+#learn-more-1 {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #5e068a;
+
+}
+#child-heading {
+  color: #5e068a;
+}
+#child-num {
+  color: #5e068a;
+  font-weight: 200;
+}
+#child-discription-1 {
+  text-align: justify;
+}

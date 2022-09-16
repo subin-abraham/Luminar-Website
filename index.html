@@ -23,14 +23,14 @@
     <nav class="navbar navbar-expand-lg fixed-top  " style="background-color: white;">
         <div class="container">
 
-            <a class="navbar-brand text-white" href="#"><img src="./image/logo.png" alt="Logo" width="300px"></a>
+            <a class="navbar-brand text-white" href="#"><img src="./image/logo.png" alt="Logo" width="200px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="margin-left: 500px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="margin-left: 600px;">
                     <li class="nav-item">
                         <a class="nav-link active" style="color: rgb(127, 17, 139); text-decoration: underline; "
                             aria-current="page" href="#"><strong>Home</strong></a>
@@ -65,26 +65,26 @@
                 aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000" >
-                <img src="./image/img_1.jpg" class="d-block w-100" alt="">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img id="corousel-images" src="./image/img_1.jpg" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 id="intro">Kerala's No.1 IT Finishing School <br>
-                    100% Placement Assistance </h5>
+                        100% Placement Assistance </h5>
                     <p id="first_paragraph">We at LUMINAR TECHNOLAB offers best software training and placement in <br>
-                    emerging technologies like BIG DATA, Data Science, Machine Learning, Python, <br>
-                    Software Testing
+                        emerging technologies like BIG DATA, Data Science, Machine Learning, Python, <br>
+                        Software Testing
                     </p>
                     <button class="btn btn-primary" id="button-view-courses">View Courses</button>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="1000">
-                <img src="./image/img_2.jpg" class="d-block w-100" alt="">
+                <img id="corousel-images" src="./image/img_2.jpg" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 id="intro">Data Science, ML & AI <br> Big Data - Hadoop & <br> Spark <br>
-                    Python Data Science</h5>
-                    <p id="first_paragraph">We LUMINAR TECHNOLAB offers best software training and 
-                        placement in emerging <br> technologies like BIG DATA, 
-                        Hadoop, Spark, Data Science, Machine Learning, Deep 
+                        Python Data Science</h5>
+                    <p id="first_paragraph">We LUMINAR TECHNOLAB offers best software training and
+                        placement in emerging <br> technologies like BIG DATA,
+                        Hadoop, Spark, Data Science, Machine Learning, Deep
                         Learning and <br> AI.
 
                     </p>
@@ -92,18 +92,16 @@
 
                 </div>
             </div>
-            </div>
         </div>
-        <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
     </div>
 
     <br>
@@ -112,44 +110,70 @@
     <br>
 
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- <div class="modal-header">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div> -->
-        <div id="parent-model" class="modal-body">
-        <h5>Get Training Quote for Free</h5> <br>
-        <form action="">
-            <input id="input-name" type="text" placeholder="Name"> <br>
-            <input type="email" placeholder="Email"> <br>
-            <input type="number" placeholder="Phone Number"> <br>
-            <select name="" id="">
-                <option selected disabled value="">Select Course intrested in</option>
-                <option value="">Data Science - ML - AI - Big Data with Cloud & Tableau</option>
-                <option value="">Python Django - Angular- Full Stack Web Development Expert</option>
-                <option value="">Software Testing Specialist</option>
-                <option value="">Business Analytics - Power BI & Tableau</option>
-                <option value="">Android Developer Expert Training In Kochi- Flutter</option>
-                <option value="">PYTHON -DATA SCIENCE with ML - AI - & TABLEAU</option>
+                <div id="parent-model" class="modal-body">
+                    <h5>Get Training Quote for Free</h5> <br>
+                    <form action="">
+                        <input id="input-name" type="text" placeholder="Name"> <br>
+                        <input type="email" placeholder="Email"> <br>
+                        <input type="number" placeholder="Phone Number"> <br>
+                        <select name="" id="">
+                            <option selected disabled value="">Select Course intrested in</option>
+                            <option value="">Data Science - ML - AI - Big Data with Cloud & Tableau</option>
+                            <option value="">Python Django - Angular- Full Stack Web Development Expert</option>
+                            <option value="">Software Testing Specialist</option>
+                            <option value="">Business Analytics - Power BI & Tableau</option>
+                            <option value="">Android Developer Expert Training In Kochi- Flutter</option>
+                            <option value="">PYTHON -DATA SCIENCE with ML - AI - & TABLEAU</option>
 
-            </select>
-            <input type="text" placeholder="Name"> <br>
-            <textarea name="" id="" cols="30" rows="5" placeholder="Comment"></textarea>
-        </form>
-        <button id="submit-button" type="button">submit query</button>
+                        </select>
+                        <input type="text" placeholder="Name"> <br>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Comment"></textarea>
+                    </form>
+                    <button id="submit-button" type="button">submit query</button>
 
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  
+    <br><br><br>
+
+    <div id="discription-1">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <h3 id="child-heading">Luminar Technolab Pvt Ltd</h3>
+                <h4 id="child-num">CIN: U80220KL2021PTC071578</h4>
+                <p id="child-discription-1">
+                    Luminar Technolab is an IT Finishing School located near Infopark - Cochin,
+                    focused on providing advanced level software training to Students and by helping
+                    them to get placed in IT companies. We are a team of IT professionals who have experience
+                    in IT sector for more than 15 plus years. Our fresher's career foster programs are Big Data
+                    Training, Data Science Training, Data Analytics Training, Python Training, Software Testing
+                    Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current
+                    industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our
+                    specialized courses.
+                </p>
+                <br>
+                <button class="btn btn-primary" id="learn-more-1">LEARN MORE</button>
+        
+            </div>
+            <div class="col-6">
+                <img src="./image/img_3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
 
 
 
